@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="noCommerce Test Suite">
+
+	<listeners>
+		<listener
+			class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="noCommerce Tests">
+	<groups>
+	    <run>
+	         <include name="master"/>
+	    </run>
+	</groups>
+	<parameter name="browser" value="chrome"/>
+		<classes>
+		 <class name="testCases.TC_001_Registration"/>
+			<class name="testCases.TC_002_Login"/>
+			<!--<class name="testCases.TC_003_LoginDDT"/>-->
+			
+			
+			
+			
+		</classes>
+	</test>
+	
+	<!-- Here you can specify multiple tests -->
+	
+
+</suite>
