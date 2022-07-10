@@ -18,6 +18,12 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_002_Login -->
+      <class name="testCases.TC_001_Registration">
+        <methods>
+          <include name="test_Registration"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_001_Registration -->
     </classes>
   </test> <!-- noCommerce Tests(failed) -->
 </suite> <!-- Failed suite [noCommerce Test Suite] -->
