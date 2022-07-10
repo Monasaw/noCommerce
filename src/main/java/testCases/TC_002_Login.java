@@ -23,7 +23,7 @@ public class TC_002_Login extends BaseClass {
     	hp.ClickLogin();
     	
     	LoginPage lp=new LoginPage(driver);
-    	lp.setemail("surya@gmail.com");
+    	lp.setemail("kajal@gmail.com");
     	Thread.sleep(1000);
     	lp.setpass("rahul123");
     	Thread.sleep(1000);

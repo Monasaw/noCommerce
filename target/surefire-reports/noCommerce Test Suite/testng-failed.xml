@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [noCommerce Test Suite]" verbose="0">
+<suite verbose="0" name="Failed suite [noCommerce Test Suite]">
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="noCommerce Tests(failed)" verbose="0">
+  <test thread-count="5" verbose="0" name="noCommerce Tests(failed)">
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
